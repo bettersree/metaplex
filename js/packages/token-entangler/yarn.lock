@@ -1807,12 +1807,13 @@
     buffer-layout "^1.2.0"
     dotenv "10.0.0"
 
-"@solana/wallet-adapter-base@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-base/-/wallet-adapter-base-0.4.1.tgz#3264220c7eef5abaf7eca0e77cc51403f4f0fcf6"
-  integrity sha512-VkMB0g89FNnfBY3PSrZh6gULWvLcvAUrQtAzKpojYdkSxL/Cm2sH9JsLylXXhT0r1vOvEc72aR/otwrX5YHm2g==
+"@solana/wallet-adapter-base@0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-base/-/wallet-adapter-base-0.9.3.tgz#4e109cd698232d17f1ef76ebdbdcd816698e0a9f"
+  integrity sha512-XXUZJWvFouNuuBVnTGZjEhZQFszG60Ss3qDbmV2O4j6S4IwgfabCZ/J+eMG02a86nGEjQrfKz0jmumpmYICZOQ==
   dependencies:
-    eventemitter3 "^4.0.7"
+    "@solana/web3.js" "^1.20.0"
+    eventemitter3 "^4.0.0"
 
 "@solana/wallet-adapter-ledger@^0.4.1":
   version "0.4.1"
@@ -1881,6 +1882,26 @@
     "@solana/wallet-adapter-sollet" "^0.4.1"
     "@solana/wallet-adapter-solong" "^0.4.1"
     "@solana/wallet-adapter-torus" "^0.5.0"
+
+"@solana/web3.js@^1.20.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.36.0.tgz#79d7d5217b49b80139f4de68953adc5b9a9a264f"
+  integrity sha512-RNT1451iRR7TyW7EJKMCrH/0OXawIe4zVm0DWQASwXlR/u1jmW6FrmH0lujIh7cGTlfOVbH+2ZU9AVUPLBFzwA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@ethersproject/sha2" "^5.5.0"
+    "@solana/buffer-layout" "^3.0.0"
+    bn.js "^5.0.0"
+    borsh "^0.4.0"
+    bs58 "^4.0.1"
+    buffer "6.0.1"
+    cross-fetch "^3.1.4"
+    jayson "^3.4.4"
+    js-sha3 "^0.8.0"
+    rpc-websockets "^7.4.2"
+    secp256k1 "^4.0.2"
+    superstruct "^0.14.2"
+    tweetnacl "^1.0.0"
 
 "@solana/web3.js@^1.21.0", "@solana/web3.js@^1.24.1":
   version "1.34.0"
